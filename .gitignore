@@ -1,0 +1,30 @@
+# Ignore large data files (especially ZIP archives)
+*.zip
+
+# Ignore system and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore Python/Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ignore environment files (if any)
+venv/
+env/
+*.env
+
+# Ignore Jupyter notebook outputs (optional)
+# Uncomment if you want to exclude notebook outputs
+# *.nbconvert.*
+# *.output.*
+
+# Ignore large PDFs (optional - only if you don't want to track them)
+# *.pdf
+
+# Git LFS files (if you're using Git LFS)
+*.gitattributes
